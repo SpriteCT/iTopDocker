@@ -1,4 +1,4 @@
-##1. Установка Docker
+## 1. Установка Docker
 - Установите необходимые пакеты:
 `sudo apt install apt-transport-https ca-certificates curl software-properties-common`
 - Добавьте ключ репозитория Docker:
@@ -9,7 +9,7 @@
 `sudo apt update`
 - Установите Docker:
 `sudo apt install docker-ce`
-##2. Клонирование репозитория
+## 2. Клонирование репозитория
 - Склонируйте репозиторий
 `git clone https://github.com/SpriteCT/iTopDocker`
 - Установите переменные окружения в файле .env
@@ -20,10 +20,10 @@ MYSQL_DATABASE=
 MYSQL_ROOT_PASSWORD=
 ```
 
-##3. Запуск контейнеров
+## 3. Запуск контейнеров
 - Перейдите в директорию с склонированным репозиторием
 `cd iTopDocker`
 - Запустите docker-compose
 `docker-compose up --build`
-##4. Первичная настройка
+## 4. Первичная настройка
 - При обращении к localhost:80 откроект инсталлятор iTop. В конфигурации БД указываем имя сервера **mysql** . Остальные поля заполнить, как и в файле .env
